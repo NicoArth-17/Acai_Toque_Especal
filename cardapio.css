@@ -1,6 +1,44 @@
 @charset "UTF-8";
 
-dl
+body
+{
+    background-color: rgb(194, 194, 194);
+}
+
+dl#inclusosTradicional
 {
     columns: 5;
 }
+
+dl#inclusosTurbinado
+{
+    columns: 7;
+}
+
+/* PONTILHADO PREÇOS | inicio: */
+li
+{
+    position: relative;
+}
+
+li::before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 70%;
+    width: 100%;
+    border-bottom: 1px dashed black;
+}
+
+li span
+{
+    background: #fff;
+}
+
+li span+span
+{
+    float: right;
+}
+/* PONTILHADO PREÇOS | fim. */
