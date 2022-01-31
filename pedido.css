@@ -1,4 +1,93 @@
+@charset "UTF-8";
+
+*
+{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root
+{
+    --cor1: rgb(55, 34, 93);
+    --cor2: rgb(255, 129, 12);
+    --cor3: rgb(37, 23, 63);
+    --cor4: rgb(255, 108, 10);
+    --cor5: rgb(99, 46, 197);
+    --cor6: rgb(255, 171, 19);
+
+    --font-home: 'Nunito', sans-serif;
+}
+
 body
 {
-    background-color: rgb(180, 180, 180);
+    background-color: var(--cor1);
+    background-image: url(imagens/logo\ açai.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1, h2
+{
+    font-family: var(--font-home);
+}
+
+header
+{
+    margin: 40px;
+}
+
+header h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+main
+{
+    position: relative;
+    height: 400px;
+}
+
+div
+{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    line-height: 2em;
+}
+
+div#ifood
+{
+    position: absolute;
+    left: 20%;
+    transform: translate(-20%);
+}
+
+div#wpp
+{
+    position: absolute;
+    left: 60%;
+}
+
+div a img
+{
+    margin-top: 20px;
+}
+
+footer
+{
+    font-family: var(--font-home);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p
+{
+    margin: 5px;
 }

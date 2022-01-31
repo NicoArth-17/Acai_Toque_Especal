@@ -29,7 +29,8 @@ header
 {}
 
 header > img
-{}
+{
+}
 
 
 nav
@@ -117,6 +118,7 @@ footer
     margin: 20px auto 0px auto;
     background-color: var(--cor2);
     width: 800px;
+    height: 30px;
     padding: 10px;
     font-family: var(--font-home);
     font-weight: bold;
@@ -135,16 +137,9 @@ footer a
 
 footer a:hover
 {
-    font-style: italic;
     color: black;
 }
 
-
-footer strong
-{
-    color: black;
-    font-weight: bolder;
-}
 
 footer img
 {
