@@ -1,4 +1,103 @@
+@charset "UTF-8";
+
+*
+{
+    margin: 0px;
+}
+
+:root
+{
+    --cor1: rgb(55, 34, 93);
+    --cor2: rgb(255, 129, 12);
+    --cor3: rgb(37, 23, 63);
+    --cor4: rgb(255, 108, 10);
+    --cor5: rgb(99, 46, 197);
+    --cor6: rgb(255, 171, 19);
+
+    --font-home: 'Nunito', sans-serif;
+}
+
 body
 {
-    background-color: rgb(199, 199, 199);
+    background-color: var(--cor1);
+    font-family: var(--font-home);
+    background-image: url(imagens/logo\ açai.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+header
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1
+{
+    color: var(--cor2);
+}
+
+p
+{
+    font-size: 20px;
+}
+
+main
+{
+    text-align: center;
+    margin-top: 60px;
+    text-shadow: 1px 1px 3px black;
+}
+
+div#dados > p
+{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.input
+{
+    background-color: rgba(255, 255, 255, 0.582);
+    border: 3px solid rgba(0, 0, 0, 0.911);
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.411);
+}
+
+#btmens
+{
+    background-color: var(--cor6);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    margin-left: 650px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.411);
+    
+}
+
+div#mensagem
+{
+    margin-top: 10px;
+}
+
+section#opiniaoRegistrada
+{
+    margin-top: 150px;
+}
+
+footer
+{
+    font-family: var(--font-home);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p
+{
+    margin: 5px;
 }

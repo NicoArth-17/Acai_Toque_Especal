@@ -25,96 +25,66 @@ body
     text-align: center;
 }
 
-header
-{}
-
-header > img
+nav > input
 {
-}
-
-
-nav
-{}
-
-nav > div
-{
-    display: inline-block;
     width: 400px;
     height: 115px;
-    padding: 20px;
-    text-align: center;
     border: 5px solid var(--cor2);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.700);
     font-family: var(--font-home);
     font-weight: 700;
     font-size: 30px;
-}
-
-nav > div#left
-{
     background-color: var(--cor1);
     color: var(--cor2);
-    margin: 0px 2px 0px 0px;
+}
+
+nav > input#left
+{
     border-radius: 15px 0px 0px 15px;
+    text-shadow: 1px 1px 3px black;
 }
 
-nav > div#center
+nav > input#right
 {
-    background-color: var(--cor1);
-    color: var(--cor2);
-}
-
-nav > div#right
-{
-
-    background-color: var(--cor1);
-    color: var(--cor2);
-    margin: 0px 0px 0px 2px;
     border-radius: 0px 15px 15px 0px;
 }
 
-nav > div#left:hover
+nav > input#left:hover
 {
     background-color: var(--cor2);
     color: white;
     border: 5px solid white;
     box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.637);
-    margin-right: 5px;
-    padding-top: 25px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
-} 
-nav > div#center:hover
-{
-    background-color: var(--cor2);
-    color: white;
-    border: 5px solid white;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-top: 25px;
-    box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.637);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
-    
-}
-nav > div#right:hover
-{
-    background-color: var(--cor2);
-    color: white;
-    border: 5px solid white;
-    box-shadow: -10px 20px 15px rgba(0, 0, 0, 0.637);
-    margin-left: 5px;
-    padding-top: 25px;
+    width: 450px;
+    height: 130px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
 }
 
-nav > div > a 
+nav > input#center:hover
 {
-    margin-top: 20px;
-    
+    background-color: var(--cor2);
+    color: white;
+    border: 5px solid white;
+    box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.637);
+    width: 450px;
+    height: 130px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
+}
+
+nav > input#right:hover
+{
+    background-color: var(--cor2);
+    color: white;
+    border: 5px solid white;
+    box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.637);
+    width: 450px;
+    height: 130px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
 }
 
 footer
 {
-    color: white;
+    color: black;
     margin: 20px auto 0px auto;
     background-color: var(--cor2);
     width: 800px;
@@ -129,7 +99,7 @@ footer
 
 footer a
 {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bolder;
     font-size: 20px;
@@ -137,7 +107,7 @@ footer a
 
 footer a:hover
 {
-    color: black;
+    color: white;
 }
 
 
