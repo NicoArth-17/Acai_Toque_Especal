@@ -25,7 +25,7 @@ body
     text-align: center;
 }
 
-nav > input
+nav button
 {
     width: 400px;
     height: 115px;
@@ -36,20 +36,20 @@ nav > input
     font-size: 30px;
     background-color: var(--cor1);
     color: var(--cor2);
-}
-
-nav > input#left
-{
-    border-radius: 15px 0px 0px 15px;
     text-shadow: 1px 1px 3px black;
 }
 
-nav > input#right
+nav button#left
+{
+    border-radius: 15px 0px 0px 15px;
+}
+
+nav button#right
 {
     border-radius: 0px 15px 15px 0px;
 }
 
-nav > input#left:hover
+nav button#left:hover
 {
     background-color: var(--cor2);
     color: white;
@@ -60,7 +60,7 @@ nav > input#left:hover
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
 }
 
-nav > input#center:hover
+nav button#center:hover
 {
     background-color: var(--cor2);
     color: white;
@@ -71,7 +71,7 @@ nav > input#center:hover
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
 }
 
-nav > input#right:hover
+nav button#right:hover
 {
     background-color: var(--cor2);
     color: white;
