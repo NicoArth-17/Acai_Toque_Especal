@@ -37,6 +37,7 @@ nav button
     background-color: var(--cor1);
     color: var(--cor2);
     text-shadow: 1px 1px 3px black;
+    cursor: pointer;
 }
 
 nav button#left

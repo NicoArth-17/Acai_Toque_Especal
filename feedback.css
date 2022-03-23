@@ -28,6 +28,7 @@ body
     color: white;
 }
 
+/* Inicio - Cabeçalho */
 header
 {
     text-align: center;
@@ -43,7 +44,10 @@ p
 {
     font-size: 20px;
 }
+/* Fim - Cabeçalho */
 
+
+/* Inicio - Fazer avaliação */
 main
 {
     text-align: center;
@@ -51,10 +55,21 @@ main
     text-shadow: 1px 1px 3px black;
 }
 
+section#opiniaoRegistrar
+{
+    width: 800px;
+    margin: auto;
+}
+
 div#dados > p
 {
     display: inline-block;
     margin: 0px 20px;
+}
+
+div#mensagem
+{
+    margin-top: 10px;
 }
 
 .input
@@ -65,7 +80,7 @@ div#dados > p
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.411);
 }
 
-#btmens
+#btenvio
 {
     background-color: var(--cor6);
     color: black;
@@ -73,22 +88,68 @@ div#dados > p
     border-radius: 5px;
     height: 30px;
     width: 90px;
-    font-size: 15px;
-    margin-left: 650px;
+    font-size: 20px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.411);
-    
+    font-weight: bolder;
+    cursor: pointer;
 }
 
-div#mensagem
+
+/* Início - Estrelas de avaliação */
+ul.avaliaçao
 {
-    margin-top: 10px;
+    display: flex;
 }
 
+li.estrela
+{
+    color: var(--cor6);
+    cursor: pointer;
+}
+
+li.estrela::before
+{
+    content: "\2605";
+}
+
+li.estrela.ativa ~ li.estrela::before
+{
+    content: "\2606";
+}
+
+ul.avaliaçao:hover  li.estrela::before
+{
+   content: "\2605"; 
+}
+
+li.estrela:hover ~ li.estrela::before
+{
+    content: "\2606";
+}
+
+div#avaliar , div#enviar
+{
+    display: inline-block;
+}
+
+div#avaliar
+{
+    margin-right: 450px;
+    font-size: 35px;
+    height: 30px;
+}
+/* Fim - Estrelas de avaliação */
+/* Fim - Fazer avaliação */
+
+
+/* Incio - Resgistrar avaliação feita */
 section#opiniaoRegistrada
 {
     margin-top: 150px;
 }
+/* Fim - Resgistrar avaliação feita */
 
+/* Inicio - Rodape */
 footer
 {
     font-family: var(--font-home);
@@ -101,3 +162,4 @@ footer p
 {
     margin: 5px;
 }
+/* Fim - Rodape */

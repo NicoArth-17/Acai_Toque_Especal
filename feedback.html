@@ -16,6 +16,7 @@
 
     <main>
         <section id="opiniaoRegistrar">
+
             <div id="dados">
                 
                     <p>
@@ -29,13 +30,25 @@
                     </p>
                 
             </div>
+
             <div id="mensagem">
                 <p>Nos conte sua experiência com nosso produto:</p>  <br>
                 <textarea name="textarea" cols="100" rows="10" class="input"></textarea>
                 
             </div>
-            <div id="botao">
-                <p><input id="btmens" type="button" value="Enviar" onclick=""></p>
+
+            <div id="avaliar">
+                <ul type="none" class="avaliaçao">
+                    <li class="estrela ativa" data-avaliaçao="1"></li>
+                    <li class="estrela" data-avaliaçao="2"></li>
+                    <li class="estrela" data-avaliaçao="3"></li>
+                    <li class="estrela" data-avaliaçao="4"></li>
+                    <li class="estrela" data-avaliaçao="5"></li>
+                </ul>
+            </div>
+
+            <div id="enviar">
+                <input id="btenvio" type="button" value="Enviar" onclick="">
             </div>
             
         </section>
@@ -53,5 +66,7 @@
         <p>Home</p>
         <a href="home.html" target="_self"><img src="imagens/voltar.png" alt="Voltar"></a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
