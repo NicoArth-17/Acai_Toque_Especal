@@ -120,7 +120,8 @@ footer img
 @media screen and (max-width: 768px) {
 
     header img{
-        width: 300px;
+        width: 250px;
+        margin: auto;
     }
 
     nav button{
