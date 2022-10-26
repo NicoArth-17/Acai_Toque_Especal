@@ -119,8 +119,8 @@ footer img
 
 @media screen and (max-width: 768px) {
 
-    body{
-        overflow-x: hidden;
+    header img{
+        width: 300px;
     }
 
     nav button{
