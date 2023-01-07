@@ -52,7 +52,92 @@ nav button#right
     border-radius: 0px 15px 15px 0px;
 }
 
-nav button#left:hover
+footer
+{
+    color: black;
+    margin: auto;
+    background-color: var(--cor2);
+    width: 50vw;
+    height: 30px;
+    padding: 10px;
+    font-family: var(--font-home);
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.700);
+    transform: translateY(-30px);
+}
+
+footer a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer a:hover
+{
+    color: white;
+}
+
+footer img
+{
+    margin-bottom: -4px;
+}
+
+@media screen and (max-width: 768px) {
+
+    header img{
+        width: 200px;
+        margin: auto;
+    }
+
+    nav {
+        margin-top: 100px;
+    }
+
+    nav button{
+        width: 350px;
+        height: 80px;
+        font-size: 25px;
+    }
+    
+    nav button#left{
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    nav button#right{
+        border-radius: 0px 0px 15px 15px;
+        margin-bottom: 50px;
+    }
+
+    nav button#left:hover{
+        background-color: var(--cor2);
+        color: white;
+        border: 3px solid white;
+    }
+
+    nav button#center:hover{
+        background-color: var(--cor2);
+        color: white;
+        border: 3px solid white;
+    }
+
+    nav button#right:hover{
+        background-color: var(--cor2);
+        color: white;
+        border: 3px solid white;
+    }
+
+    footer{
+        width: 400px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    nav button#left:hover
 {
     background-color: var(--cor2);
     color: white;
@@ -85,81 +170,4 @@ nav button#right:hover
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
 }
 
-footer
-{
-    color: black;
-    margin: auto;
-    background-color: var(--cor2);
-    width: 50vw;
-    height: 30px;
-    padding: 10px;
-    font-family: var(--font-home);
-    font-weight: bold;
-    border-radius: 50px;
-    border: 2px solid black;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.700);
-    transform: translateY(-30px);
-}
-
-footer a
-{
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-footer a:hover
-{
-    color: white;
-}
-
-
-footer img
-{
-    margin-bottom: -4px;
-}
-
-@media screen and (max-width: 768px) {
-
-    header img{
-        width: 250px;
-        margin: auto;
-    }
-
-    nav {
-        margin: auto;
-    }
-
-    nav button{
-        width: 300px;
-        height: 100px;
-    }
-    
-    nav button#left{
-        border-radius: 15px 15px 0px 0px;
-    }
-
-    nav button#right{
-        border-radius: 0px 0px 15px 15px;
-        margin-bottom: 50px;
-    }
-
-    nav button#left:hover{
-        width: 325px;
-    }
-
-    nav button#center:hover{
-        width: 325px;
-    }
-
-    nav button#right:hover{
-        width: 325px;
-    }
-
-    footer{
-        
-        width: 250px;
-        height: 50px;
-    }
 }
